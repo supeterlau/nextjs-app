@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useEffect, useRef, useState } from "react";
 import * as QRCode from "qrcode";
 
@@ -27,6 +28,9 @@ export default function Qrcode() {
 
   return (
     <div>
+      <Head>
+        <Title>QRCode</Title>
+      </Head>
       <div>
         <textarea
           value={content}

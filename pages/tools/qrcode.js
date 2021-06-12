@@ -29,7 +29,7 @@ export default function Qrcode() {
   return (
     <div>
       <Head>
-        <Title>QRCode</Title>
+        <title>QRCode</title>
       </Head>
       <div>
         <textarea

@@ -11,6 +11,7 @@ const links = [
   ...link,
   key: `nav-link-${link.href}-${link.label}`,
 }));
+
 const Nav = () => {
   return (
     <>

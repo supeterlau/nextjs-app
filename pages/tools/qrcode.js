@@ -28,6 +28,7 @@ export default function Qrcode() {
 
   return (
     <div>
+      <Nav />
       <Head>
         <title>QRCode</title>
       </Head>

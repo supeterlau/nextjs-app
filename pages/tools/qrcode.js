@@ -2,6 +2,8 @@ import Head from "next/head";
 import { useEffect, useRef, useState } from "react";
 import * as QRCode from "qrcode";
 
+import Nav from "../../components/Nav";
+
 export default function Qrcode() {
   const [content, setContent] = useState("https://cn.bing.com");
   const qrRef = useRef();

@@ -20,7 +20,7 @@ const fetchBook = async (bookId) => {
 export default async (req, res) => {
   // ?bookId=1234567
   const { bookId } = req.query;
-  content = await fetchBook(bookId);
+  let content = await fetchBook(bookId);
   res
     .status(200)
     .json({ name: "John Doe", body: req.body, query: req.query, content });
